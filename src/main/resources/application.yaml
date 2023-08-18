@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server-17thaug2023
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/apaspxp/configuration.git
+          default-label: master
+server:
+  port: 5555
